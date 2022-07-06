@@ -12,6 +12,12 @@ h1 {
     line-height: .4;
 }
 
+h2 {
+    font-size: 30px;
+    color: gray;
+}
+
+
 
 .top-image {
     background-image: url(images/donation13.jpg);
@@ -29,8 +35,37 @@ h1 {
     text-decoration: none;
     color: white;
     font-weight: 600;
-    background-color: indianred;
+    background-color: orangered;
     padding: 15px 30px;
     border-radius: 5px;
     margin-top: 15px;
+}
+
+.center {
+    text-align: center;
+}
+
+.flexible {
+    display: flex;
+    margin-top: 4%;
+    margin-left: 25%;
+
+}
+
+.flexible div {
+    color: grey;
+    border: 2px solid white;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 7px;
+}
+
+#num-color {
+    border: 2px solid orangered;
+    color: orangered;
+}
+
+.hr-margin {
+    margin: 0 auto;
 }
