@@ -16,6 +16,15 @@ h2 {
     font-size: 30px;
 }
 
+.pd {
+    padding: 80px 50px;
+}
+
+
+
+.sec-bg {
+    background-color: aliceblue;
+}
 
 
 .top-image {
@@ -47,7 +56,7 @@ h2 {
 .flexible {
     display: flex;
     margin-top: 4%;
-    margin-left: 25%;
+    justify-content: center;
 
 }
 
@@ -58,6 +67,16 @@ h2 {
     border-radius: 10px;
     margin: 10px;
     padding: 7px;
+}
+
+.other-amount {
+    border: 0;
+    border-bottom: 2px solid #868585;
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 #num-color {
@@ -87,4 +106,26 @@ h2 {
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
+}
+
+#email {
+    padding: 15px 35px;
+    margin-right: -6px;
+
+}
+
+.email-background {
+    background-color: bisque;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer {
+    text-align: center;
+    color: aqua;
+    background-color: rgb(18, 17, 24);
+    padding: 10px;
 }
