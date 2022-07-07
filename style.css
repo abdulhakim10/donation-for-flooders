@@ -43,7 +43,7 @@ h2 {
     text-decoration: none;
     color: white;
     font-weight: 600;
-    background-color: orangered;
+    background-color: rgb(39, 188, 247);
     padding: 15px 30px;
     border-radius: 5px;
     margin-top: 15px;
@@ -125,7 +125,11 @@ h2 {
 
 footer {
     text-align: center;
-    color: aquamarine;
+    color: rgb(39, 188, 247);
     background-color: rgb(18, 17, 24);
     padding: 10px;
+}
+
+footer p {
+    color: white;
 }
